@@ -1,6 +1,6 @@
 # Moda Blogger Analyst
 
-一个用于 Codex 的中文分析技能：帮助你用某位自媒体投资博主的思考框架，解读帖子、观点、行业主线和投资叙事。
+一个面向 AI Agent 的通用中文分析指令包：帮助你用某位自媒体投资博主的思考框架，解读帖子、观点、行业主线和投资叙事。
 
 它不是“代替你买卖股票”的工具，也不是复刻博主本人。更准确地说，它会把问题放进一套已经整理好的框架里，回答“按他的逻辑，可能会怎么看”。
 
@@ -30,20 +30,61 @@
 
 ```text
 .
-├── SKILL.md                 # Codex 技能主体：触发规则、分析框架和回答模板
+├── SKILL.md                 # 通用核心指令：触发规则、分析框架和回答模板
 ├── agents/
-│   └── openai.yaml          # 技能展示名、简介和默认提示词
+│   └── openai.yaml          # OpenAI/Codex 等平台的可选适配元数据
 └── references/
     └── profile.md           # 已整理的人物画像、投资框架和语料增量总结
 ```
 
-## 安装方式
+## 最简单的安装方式：把仓库地址交给 Agent
 
-如果你只是想在本地 Codex 使用，可以把整个项目放进 Codex 的 skills 目录。
+如果你使用的是支持联网、读 GitHub 仓库、创建本地技能/项目知识的 Agent，可以直接把下面这段话发给它：
+
+```text
+请帮我安装并使用这个分析技能：
+https://github.com/kunze97/moda-blogger-analyst.git
+
+安装要求：
+1. 克隆或读取这个仓库。
+2. 将 SKILL.md 作为核心分析指令。
+3. 将 references/profile.md 作为需要深入分析时读取的参考资料。
+4. 如果你的平台支持 Skills、Project Instructions、Custom Instructions、Knowledge Files 或 Agent Memory，请把这两个文件注册到对应位置。
+5. 安装后，把 `moda` 识别为这个分析框架的快捷叫法。以后我说“按 moda 分析”，就是使用本项目的 SKILL.md 和 references/profile.md。
+
+注意：
+- 不要冒充博主本人。
+- 投资相关回答必须区分“博主框架下的判断”和“独立风险提醒”。
+- 不要把任何结论当作买卖建议。
+```
+
+如果你的 Agent 没有自动安装能力，也可以手动把 `SKILL.md` 和 `references/profile.md` 上传、复制或加入项目知识库。
+
+## 平台适配方式
+
+### 通用 Agent / ChatGPT / Claude / Gemini
+
+把 `SKILL.md` 作为系统指令、项目指令或自定义指令；把 `references/profile.md` 作为知识文件或参考资料。使用时可以这样说：
+
+```text
+请按 moda 分析下面这条帖子：
+……
+```
+
+或：
+
+```text
+请先参考 references/profile.md，再按 SKILL.md 的流程分析这个行业主题：
+……
+```
+
+### Codex / OpenAI Skills
+
+如果你使用 Codex 的本地 skills 目录，可以这样安装：
 
 ```bash
 mkdir -p ~/.codex/skills
-git clone https://github.com/你的用户名/moda-blogger-analyst.git ~/.codex/skills/moda-blogger-analyst
+git clone https://github.com/kunze97/moda-blogger-analyst.git ~/.codex/skills/moda-blogger-analyst
 ```
 
 如果你已经下载了本仓库，也可以直接复制：
@@ -56,18 +97,18 @@ cp -R SKILL.md agents references ~/.codex/skills/moda-blogger-analyst/
 安装后重启 Codex，或开启一个新会话。之后可以在对话中直接使用：
 
 ```text
-使用 $moda-blogger-analyst 解读下面这条帖子：
+按 moda 分析下面这条帖子：
 ……
 ```
 
 ## 提问示例
 
 ```text
-用 $moda-blogger-analyst 分析一下这条雪球的潜台词，重点看它是不是在暗示仓位变化。
+按 moda 分析这条雪球的潜台词，重点看它是不是在暗示仓位变化。
 ```
 
 ```text
-按这个博主的框架，AI 液冷这条线应该先看下游应用，还是看上游瓶颈？
+按 moda 看，AI 液冷这条线应该先看下游应用，还是看上游瓶颈？
 ```
 
 ```text
@@ -80,7 +121,7 @@ cp -R SKILL.md agents references ~/.codex/skills/moda-blogger-analyst/
 
 ## 推荐输出结构
 
-解读帖子时，通常可以让 Codex 按这个结构回答：
+解读帖子时，通常可以让 Agent 按这个结构回答：
 
 - 表层意思
 - 潜台词/主线暗示
@@ -89,14 +130,14 @@ cp -R SKILL.md agents references ~/.codex/skills/moda-blogger-analyst/
 - 可学习的地方
 - 不宜照搬的地方
 
-分析行业或主题时，通常可以让 Codex 按这个结构回答：
+分析行业或主题时，通常可以让 Agent 按这个结构回答：
 
 - 按他的框架：时代主线 -> 预期差 -> 低位资产 -> 能否说服自己 -> 仓位和风险
 - 独立提醒：事实不确定性、仓位差异、宏大叙事过度连接、投资风险
 
 ## 使用时的关键提醒
 
-这个技能的价值不在于给结论，而在于训练一种拆解方式：
+这个指令包的价值不在于给结论，而在于训练一种拆解方式：
 
 - 不只问“哪个股票最像概念”，先问“真正的瓶颈在哪里”。
 - 不只看下游故事，也看材料、设备、工艺、软件、数据、测试和验证。
@@ -109,4 +150,4 @@ cp -R SKILL.md agents references ~/.codex/skills/moda-blogger-analyst/
 
 ## 维护建议
 
-如果后续有新的公开帖子、直播摘要或研究笔记，可以先更新 `references/profile.md`，再根据新增内容同步调整 `SKILL.md` 里的触发规则、分析流程和回答模板。
+如果后续有新的公开帖子、直播摘要或研究笔记，可以先更新 `references/profile.md`，再根据新增内容同步调整 `SKILL.md` 里的触发规则、分析流程和回答模板。若某个平台需要专门的安装格式，可以在 `agents/` 或其他适配目录中补充平台元数据，但核心框架仍应保持在 `SKILL.md` 和 `references/profile.md` 中。

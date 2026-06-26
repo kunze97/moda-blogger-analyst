@@ -1,7 +1,7 @@
 interface:
   display_name: "Moda Blogger Analyst"
-  short_description: "Analyze posts through the distilled investor-blogger framework."
-  default_prompt: "Use $moda-blogger-analyst to interpret this blogger's latest post and explain the likely hidden implications."
+  short_description: "Interpret posts and industry themes through a distilled investor-blogger framework."
+  default_prompt: "Interpret this blogger's latest post through the distilled framework and explain the likely hidden implications."
 
 policy:
   allow_implicit_invocation: true

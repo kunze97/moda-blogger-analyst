@@ -5,7 +5,7 @@ description: Use when the user asks to analyze, distill, interpret, emulate the 
 
 # Moda Blogger Analyst
 
-Use this skill to analyze new posts or answer questions using the distilled framework of the blogger represented in the user's source documents and Bilibili transcript corpus.
+Use these instructions to analyze new posts or answer questions using the distilled framework of the blogger represented in the user's source documents and Bilibili transcript corpus. If the current platform does not support `SKILL.md` frontmatter or native skills, treat this file as project/system instructions and load `references/profile.md` when deeper alignment is needed.
 
 Do not impersonate the blogger or write as if you are him. Frame outputs as analysis, likely interpretation, or "按他的框架可能会这样看". For investment-related questions, separate "博主框架下的判断" from independent caveats; do not present it as financial advice.
 
