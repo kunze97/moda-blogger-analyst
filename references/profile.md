@@ -2,6 +2,22 @@
 
 This profile incorporates the earlier Xueqiu/memorial-note distillation plus a Bilibili transcript corpus of 155 Markdown files converted from Word transcripts. The added corpus broadens the portrait beyond stock selection into investing temperament, daily life, community relations, and life philosophy.
 
+## Table Of Contents
+
+- One-Line Portrait
+- Core Investment Logic
+- Topic Evolution
+- Profile Update Policy
+- Recent Increment Rules
+- Personal Ethics And Taste Filter
+- Investment Operating System
+- Sector Screening Priority
+- Hidden-Upstream And Ability-Migration Screen
+- Life And Money Philosophy
+- Community And Creator Psychology
+- How To Interpret New Posts
+- Analysis Output Guidance
+
 ## One-Line Portrait
 
 The blogger is not a conventional value investor. He is closer to a "产业叙事型价值投机者" or "实盘叙事型产业投机者": he identifies era-level industrial changes, searches for low-position expectation gaps, and uses strong self-conviction plus emotional stamina to wait for market re-rating. The Bilibili transcripts add a second layer: he treats investing as a life practice that tests cognition, temperament, family security, community boundaries, and the ability to turn volatile gains into durable freedom.
@@ -80,7 +96,23 @@ Bilibili transcript layer:
 - 2025-2026 livestreams add AI, compute, energy, cooling, shipbuilding/car carriers, small metals, military/geopolitics, and a stronger sense of "national future" or strategic bottlenecks.
 - Repeated non-investment motifs include work busyness, family/house decisions, children/education, online-platform stress, fan/community management, game/live-chat banter, and self-mockery about luck.
 
-## 2026-06 新增雪球样本更新
+## Profile Update Policy
+
+Only promote reusable methods, stable portrait changes, durable counterexamples, and corrections into this profile. Do not add short-term positions, one-off price calls, temporary emotions, livestream banter, or raw source text. If a new source repeats an existing rule, merge it into the relevant theme instead of adding another date section. Use date sections only as a temporary buffer for fresh increments; later fold them into stable thematic sections.
+
+Before updating, classify each candidate as:
+
+- framework upgrade;
+- new evidence for an old rule;
+- stable personality or community-boundary detail;
+- short-term state;
+- noise.
+
+Only the first three belong here. Keep raw livestreams, comments, and full transcripts in the source corpus, not in the skill.
+
+## Recent Increment Rules
+
+### 2026-06 Xueqiu Increment
 
 The 2026-06 Xueqiu increment strengthens the late-stage portrait rather than replacing it.
 
@@ -107,6 +139,47 @@ The 2026-06 Xueqiu increment strengthens the late-stage portrait rather than rep
 
 - Social boundary becomes harder.
   AI-native community, real-name identity, face verification, token costs, and permanent viewpoint records all point to an anti-garbage-flow and anti-blame-shifting system. This reinforces the old community frame: he wants learning and evolution, but he is increasingly willing to filter aggressively.
+
+### 2026-06-28 Livestream Increment
+
+The 2026-06-28 livestream adds several reusable rules. Treat them as method upgrades, not as timeless recommendations for the named assets in the recording.
+
+- Calculate value capture before accepting a supply-chain story.
+  When a theme is merely adjacent to a hot customer, first estimate unit price, volume, and profit contribution. If the captured value is tiny, it may be like selling snacks outside a major factory: emotionally attached to the hot chain, but not a real bottleneck.
+
+- Follow capital after fully priced icons.
+  For high-profile IPOs, celebrity companies, or faith-driven assets that may be fully priced on listing, his preferred question is not "should we buy the famous asset?" but "where will its new financing, windfall profit, or capex go next?" This is downstream money transmission into less fully priced upstream suppliers.
+
+- Read AI as a spending chain.
+  His current AI-chain map is: model companies buy GPUs, GPUs pull HBM/memory, HBM and fabs pull upstream materials, special gases, equipment, and capacity expansion. After infrastructure and upstream are priced, applications must create real value; otherwise the AI cycle risks exhausting itself.
+
+- Separate primary-market optionality from secondary-market investability.
+  If a technology has not crossed 0-to-1, lacks a visible technical path, or cannot show profit in a public-market cycle, he may still watch or fund it in primary markets but reject it as a secondary-market thesis.
+
+- Reframe physical AI away from household humanoids.
+  He is skeptical that humanoid robots replacing cheap physical labor have a near-term economic model. The higher-value frame is intelligent automated equipment: mining, industrial automation, automated labs, life-science experimentation, space construction, and machine clusters that extend production frontiers.
+
+- For AI healthcare, prefer shovels but demand evidence.
+  He does not want to guess the winning drug or long clinical pipeline. The more blogger-style angle is AI drug-discovery platforms, datasets, automated experiments, multi-omics, genomic tools, and validation bottlenecks. Because he has been hurt by concept trades here, require visible revenue, contracts, performance evidence, or a credible near-term path to profit.
+
+- Cyclical growth stocks are his favorite acceleration structure.
+  A normal growth stock becomes exciting when it catches a cycle. Analyze these through volume, price, and valuation/sentiment: structural demand lifts volume, scarcity or tight supply lifts price, and the combined boom expands valuation.
+
+- Treat outside opinions as signals, not finished logic.
+  He increasingly treats other people's views, industry chatter, and AI outputs as raw signals. First decide whether the signal is true, then rebuild the logic with his own framework. Do not outsource conviction to someone else's narrative.
+
+### 2026-07-01 Xueqiu Increment
+
+The 2026-07-01 Xueqiu sample is a small but useful method update around AI healthcare, high-to-low rotation, and trend interpretation.
+
+- AI healthcare should be treated as an offensive AI-application line, not a defensive old-economy medical stock bucket.
+  He is interested only if AI can accelerate healthcare into visible business performance. The key question is not "is healthcare defensive?" but "can AI turn this into an application-driven offense with earnings?"
+
+- Extreme high-to-low rotation is not mechanical.
+  He did not describe a simple move from winners into any low-position asset. The low side must be extreme enough: still unfashionable, not obviously bottomed, and not yet crowded. Timing depends on both the current main line and whether the new low-position line has enough expectation gap.
+
+- Trend is a field formed by industrial trend, capital trend, and market inertia.
+  When he attacks premature top-calling, he is not only defending K-lines. He is saying that industry direction, money flow, and crowd inertia create a "field" that can persist longer than ordinary valuation or discomfort suggests. Do not reduce his trend language to single-candle technical analysis.
 
 ## Personal Ethics And Taste Filter
 

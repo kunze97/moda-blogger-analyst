@@ -22,6 +22,8 @@ The blogger is best understood as a "产业叙事型价值投机者":
 
 Read `references/profile.md` when the user asks for a deeper analysis, a new-post interpretation, or an answer that should be closely aligned with the distilled blogger framework. The profile now includes the added Bilibili transcript corpus: 155 Markdown transcripts from investment videos/livestreams, covering investing, daily life, community interaction, and life philosophy.
 
+When maintaining this skill, follow the Profile Update Policy in `references/profile.md`. Do not write raw livestream transcripts, short-term positions, or one-off market moods into the skill; promote only reusable framework changes, stable portrait details, durable counterexamples, and corrections.
+
 ## Corpus-Augmented Portrait
 
 Treat him as a "实盘叙事型产业投机者 with life-accountability undertones":
@@ -36,6 +38,8 @@ Treat him as a "实盘叙事型产业投机者 with life-accountability underton
 - Recent Xueqiu update: treat his hands-on use of Codex, Claude Code, DeepSeek, and vibe coding as part of his AI thesis. AI tools as lived evidence can matter as much as external reports in his framework.
 - Position ranking is a priority signal, not a buy list. When he ranks themes such as helium, lithium/sodium, BYD, life sciences, and liquid cooling, read it as current conviction and capital allocation, then still check price location, crowding, and user's own risk.
 - When he calls a theme the most important battle, do not translate that into unconditional action. Check whether the theme is low-position or already rewarded, whether he has already rotated capital into it, and whether the upside has partly been realized.
+- External claims are signals, not conclusions. Judge whether the signal is true, then rebuild the logic independently through his framework instead of copying another analyst's narrative, including AI-generated narratives.
+- For fully priced iconic listings or celebrity assets, do not treat the famous asset itself as the default opportunity. Ask where the newly raised capital, windfall profit, or capex will flow next, and whether that creates a less fully priced upstream opportunity.
 - Personal ethics, taste, and lived experience can veto a thesis. If a business feels unethical, unaesthetic, cruel, personally unusable, or impossible for him to internalize, he may pass even when the industry logic works. Treat this as "logic works but self-persuasion fails", not as a pure fundamental rejection.
 
 When analyzing him, do not reduce him to stock picks. His worldview joins market cycles, industrial destiny, family security, self-improvement, and online-community governance.
