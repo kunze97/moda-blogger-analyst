@@ -170,10 +170,13 @@ The 2026-06-28 livestream adds several reusable rules. Treat them as method upgr
 
 ### 2026-07-01 Xueqiu Increment
 
-The 2026-07-01 Xueqiu sample is a small but useful method update around AI healthcare, high-to-low rotation, and trend interpretation.
+The 2026-07-01 Xueqiu sample is a small but useful method update around AI applications, high-to-low rotation, and trend interpretation.
 
-- AI healthcare should be treated as an offensive AI-application line, not a defensive old-economy medical stock bucket.
-  He is interested only if AI can accelerate healthcare into visible business performance. The key question is not "is healthcare defensive?" but "can AI turn this into an application-driven offense with earnings?"
+- After AI infrastructure and upstream are priced, search for AI applications that can turn into visible earnings.
+  The core frame is not "AI healthcare" or "CRO" by itself. Healthcare can be a candidate application line only if AI creates real productivity, demand, orders, revenue, or profit in a still low-position asset.
+
+- CRO is only one possible reality-bearing layer inside AI healthcare.
+  Do not overfit the AI-application framework to CRO. CRO, clinical services, model animals, experiment automation, data tools, and validation platforms are all possible承接层. The preferred target is the layer where AI-driven activity becomes orders, projects, data, experiments, revenue, or profit; pure concept labeling is not enough.
 
 - Extreme high-to-low rotation is not mechanical.
   He did not describe a simple move from winners into any low-position asset. The low side must be extreme enough: still unfashionable, not obviously bottomed, and not yet crowded. Timing depends on both the current main line and whether the new low-position line has enough expectation gap.
